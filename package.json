@@ -1,0 +1,25 @@
+{
+  "name": "qauto-playwright-tests",
+  "version": "1.0.0",
+  "description": "Playwright test suite for QAuto application (Page Object Model)",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "pom",
+    "qauto"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.50.0",
+    "@types/node": "^26.6.2",
+    "typescript": "^5.7.0"
+  }
+}
